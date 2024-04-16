@@ -7,6 +7,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import PrivetRouter from "./PrivetRouter";
 import SegmentDetails from "../pages/SegmentDetails";
+import Advantages from "../pages/extra/Advantages";
 
 const routes = createBrowserRouter([
     {
@@ -17,7 +18,7 @@ const routes = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
-                loader: ()=>fetch('/categories.json')
+                loader: () => fetch('/categories.json')
             },
             {
                 path: "/login",
@@ -35,8 +36,16 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/segment/:id",
-                element: <SegmentDetails></SegmentDetails>,
+                element: <PrivetRouter>
+                    <SegmentDetails></SegmentDetails>
+                </PrivetRouter>,
                 loader: () => fetch('/categories.json')
+            },
+            {
+                path: "ourAdvantages",
+                element: <PrivetRouter>
+                    <Advantages></Advantages>
+                </PrivetRouter>
             }
         ]
     },

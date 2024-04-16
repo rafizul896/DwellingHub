@@ -11,6 +11,7 @@ const Navbar = () => {
     const links = <>
         <li><NavLink to="/" className={({ isActive }) => isActive ? "btn btn-primary" : "btn"}>Home</NavLink></li>
         <li><NavLink to="/updateProfile" className={({ isActive }) => isActive ? "btn btn-primary" : "btn"}>Update Profile</NavLink></li>
+        <li><NavLink to="/ourAdvantages" className={({ isActive }) => isActive ? "btn btn-primary" : "btn"}>Our Advantages</NavLink></li>
     </>
     return (
         <div className="navbar px-0 bg-base-100">
