@@ -1,0 +1,146 @@
+[
+    {
+        "estate_title": "Luxury Single-Family Home",
+        "id": 1,
+        "segment_name": "Single-family Home",
+        "description": "Experience luxurious living in this exquisite single-family home located in the prestigious Beverly Hills area. With its elegant design and expansive floor plan spanning over 4,000 square feet, this home offers ample space for relaxation and entertainment. Enjoy the breathtaking views of the surrounding hillsides from the beautifully landscaped garden or take a dip in the sparkling swimming pool. This is the epitome of upscale California living.",
+        "price": "2,500,000",
+        "status": "sale",
+        "area": "4000 sq ft",
+        "location": "Beverly Hills, California",
+        "facilities": [
+            "swimming pool",
+            "garden",
+            "home theater"
+        ],
+        "image": "https://i.ibb.co/LZkcf6Y/img11.jpg"
+    },
+    {
+        "estate_title": "Modern Townhouse in Urban Area",
+        "id": 2,
+        "segment_name": "Townhouse",
+        "description": "Discover contemporary urban living at its finest in this modern townhouse nestled in the vibrant Brooklyn neighborhood. With its sleek design and open-concept layout spanning over 2,000 square feet, this townhouse offers both style and functionality. Enjoy the convenience of city living with a private rooftop terrace, perfect for relaxing or entertaining guests. Experience the best of Brooklyn in this stylish and sophisticated townhome.",
+        "price": "1,200,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "Brooklyn, New York",
+        "facilities": [
+            "rooftop terrace",
+            "garage",
+            "smart home features"
+        ],
+        "image": "https://i.ibb.co/6NXT6Wp/img10.jpg"
+    },
+    {
+        "estate_title": "Riverside Cottage Retreat",
+        "id": 3,
+        "segment_name": "Vacation Rental",
+        "description": "Escape to a tranquil riverside retreat in this charming cottage nestled along the banks of the river in beautiful Asheville, North Carolina. Surrounded by lush greenery and serene nature, this cozy rental offers a peaceful getaway from the hustle and bustle of city life. Relax on the riverside deck, roast marshmallows by the fire pit, or embark on scenic hikes along nearby trails. Experience the beauty of the Blue Ridge Mountains in this idyllic vacation rental.",
+        "price": "250/night",
+        "status": "rent",
+        "area": "1000 sq ft",
+        "location": "Asheville,North Carolina",
+        "facilities": [
+            "riverside deck",
+            "fire pit",
+            "boat dock"
+        ],
+        "image": "https://i.ibb.co/SXSRzG9/img9.jpg"
+    },
+    {
+        "estate_title": "Student Housing Near University",
+        "id": 4,
+        "segment_name": "Student Housing",
+        "description": "Experience convenient and comfortable student living in this modern housing complex located just steps away from the bustling campus of the University of Texas at Austin. With furnished accommodations and on-site amenities such as a study lounge and laundry facilities, this housing option is perfect for students looking for a supportive and vibrant community. Embrace the university lifestyle in style at this student housing near campus.",
+        "price": "1,000/month",
+        "status": "rent",
+        "area": "600 sq ft",
+        "location": "Austin, Texas",
+        "facilities": [
+            "furnished",
+            "study lounge",
+            "laundry room"
+        ],
+        "image": "https://i.ibb.co/h25gBjL/img13.jpg"
+    },
+    {
+        "estate_title": "Senior Living Community",
+        "id": 5,
+        "segment_name": "Senior Living",
+        "description": "Experience the comfort and convenience of senior living in this vibrant community located in sunny Miami, Florida. With a range of amenities and activities tailored to seniors, including dining options, fitness classes, and medical assistance, residents can enjoy an active and fulfilling lifestyle. Whether relaxing by the pool or participating in community events, this senior living community offers the perfect blend of independence and support.",
+        "price": "4,000/month",
+        "status": "rent",
+        "area": "800 sq ft",
+        "location": "Miami, Florida",
+        "facilities": [
+            "dining hall",
+            "fitness center",
+            "medical assistance"
+        ],
+        "image": "https://i.ibb.co/hKrVcFV/img14.jpg"
+    },
+    {
+        "estate_title": "Beachfront Vacation Rental",
+        "id": 6,
+        "segment_name": "Vacation Rental",
+        "description": "Escape to paradise in this stunning beachfront vacation rental located on the picturesque shores of Maui, Hawaii. With breathtaking ocean views and direct access to the beach, this rental offers the ultimate tropical getaway. Relax on the private terrace, take a dip in the crystal-clear waters, or explore the island's attractions. Whether seeking adventure or relaxation, this beachfront rental provides an unforgettable Hawaiian experience.",
+        "price": "300/night",
+        "status": "rent",
+        "area": "1200 sq ft",
+        "location": "Maui, Hawaii",
+        "facilities": [
+            "private beach access",
+            "terrace",
+            "BBQ area"
+        ],
+        "image": "https://i.ibb.co/d63Xpxp/img15.jpg"
+    },
+    {
+        "estate_title": "Family-Friendly Suburban Home",
+        "id": 7,
+        "segment_name": "Suburban",
+        "description": "Discover the perfect family retreat in this spacious suburban home located in the peaceful neighborhood of Denver, Colorado. With its large backyard, ideal for outdoor activities, and quiet surroundings, this home offers a haven for families seeking tranquility and space. Enjoy gatherings in the open living areas or relax in the comfort of the private master suite. This suburban home is the epitome of family-friendly living.",
+        "price": "600,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "Denver, Colorado",
+        "facilities": [
+            "backyard",
+            "garage",
+            "playroom"
+        ],
+        "image": "https://i.ibb.co/NYQDTR2/img7.jpg"
+    },
+    {
+        "estate_title": "Downtown Loft Apartment",
+        "id": 8,
+        "segment_name": "Urban",
+        "description": "Experience urban sophistication in this stylish loft apartment situated in the vibrant downtown area of Seattle, Washington. With its industrial-inspired design, exposed brick walls, and open floor plan, this loft offers a unique blend of modern living and historic charm. Enjoy sweeping views of the city skyline from the rooftop deck or explore the bustling streets below. This downtown loft apartment is the epitome of city living.",
+        "price": "1,000,000",
+        "status": "sale",
+        "area": "1500 sq ft",
+        "location": "Seattle, Washington",
+        "facilities": [
+            "open floor plan",
+            "exposed brick walls",
+            "rooftop deck"
+        ],
+        "image": "https://i.ibb.co/nCRr2VW/img8.jpg"
+    },
+    {
+        "estate_title": "City Apartment with Stunning Views",
+        "id": 9,
+        "segment_name": "Apartment",
+        "description": "Embrace urban luxury living in this modern located in the heart of bustling San Francisco. Offering breathtaking views of the city skyline, this apartment boasts a spacious layout with high-end finishes and amenities. Relax on the private balcony and soak in the sights or unwind in the building's fitness center and lounge areas. With its prime location and luxurious features, this apartment offers the ultimate urban retreat.",
+        "price": "800,000",
+        "status": "sale",
+        "area": "1000 sq ft",
+        "location": "San Francisco, California",
+        "facilities": [
+            "balcony",
+            "fitness center",
+            "24/7 concierge"
+        ],
+        "image": "https://i.ibb.co/bBQmzYz/img12.jpg"
+    }
+]

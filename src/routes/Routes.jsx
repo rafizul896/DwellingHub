@@ -5,6 +5,8 @@ import ErrorPage from "../pages/ErrorPage";
 import UpdateProfile from "../pages/UpdateProfile";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import PrivetRouter from "./PrivetRouter";
+import SegmentDetails from "../pages/SegmentDetails";
 
 const routes = createBrowserRouter([
     {
@@ -14,7 +16,8 @@ const routes = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home></Home>
+                element: <Home></Home>,
+                loader: ()=>fetch('/categories.json')
             },
             {
                 path: "/login",
@@ -26,8 +29,15 @@ const routes = createBrowserRouter([
             },
             {
                 path: "updateProfile",
-                element: <UpdateProfile></UpdateProfile>
+                element: <PrivetRouter>
+                    <UpdateProfile></UpdateProfile>
+                </PrivetRouter>
             },
+            {
+                path: "/segment/:id",
+                element: <SegmentDetails></SegmentDetails>,
+                loader: () => fetch('/categories.json')
+            }
         ]
     },
 ]);
