@@ -12,7 +12,7 @@ const Segment = ({ segment }) => {
             <div className="p-4 shadow-xl h-[600px] rounded-2xl">
                 <div className="w-full md:h-[260px] relative">
                     <img className="w-full h-full rounded-xl" src={image} alt="" />
-                    <p className='bg-green-500 text-white px-4 absolute top-0 right-0 rounded-tr-xl'>{status}</p>
+                    <p className='bg-[#60e260] text-white px-4 absolute top-0 right-0 rounded-tr-xl'>{status}</p>
                 </div>
                 <div className="p-2 space-y-4">
                     <h1 className="text-2xl font-semibold text-[#1f2744]">{estate_title}</h1>

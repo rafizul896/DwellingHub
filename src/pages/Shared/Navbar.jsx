@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleLogOut = () => {
         logOut()
         .then(()=>{
-            toast.success("Update Success", {
+            toast.success("LogOut Success", {
                 theme: "colored"
             });
         })

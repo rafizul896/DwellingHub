@@ -66,7 +66,7 @@ const SegmentDetails = () => {
                     </div>
                     <div className="flex flex-col md:flex-row gap-5">
                         <button className="btn text-white hover:bg-[#5144e6] bg-[#6a60e2] rounded-full px-7">Send inquiry</button>
-                        <button className="btn btn-secondary rounded-full">Booking now</button>
+                        <button className="btn bg-[#60e260] text-white hover:bg-[#60e260] rounded-full px-7">Booking now</button>
                     </div>
                 </div>
             </div>
