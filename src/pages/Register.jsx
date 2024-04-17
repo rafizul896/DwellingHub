@@ -4,7 +4,7 @@ import { Link,useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import { toast } from 'react-toastify';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
-
+import {Helmet} from "react-helmet";
 
 const Register = () => {
     const [registerError, setRegisterError] = useState('')
@@ -54,6 +54,11 @@ const Register = () => {
     }
     return (
         <div className="hero min-h-[100vh] p-0">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Register - DwellingHub</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <div className="hero-content md:w-1/2 flex-col border mb-10 bg-base-100 shadow-2xl  md:pb-0 px-0 py-10">
                 <div className="text-center lg:text-left">
                     <h1 className="text-2xl md:text-4xl font-bold">Register your account</h1>
