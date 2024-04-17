@@ -7,7 +7,7 @@ export const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(null)
+    const [loading, setLoading] = useState(true)
     const googleProvider = new GoogleAuthProvider()
     const faceBookProvider = new FacebookAuthProvider();
 
@@ -40,11 +40,11 @@ const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
-            setLoading(false)
             setUser(currentUser);
+            setLoading(false)
         })
         return () => {
-            unSubscribe;
+            return unSubscribe();
         }
     }, [])
 

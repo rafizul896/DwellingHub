@@ -26,7 +26,7 @@ const UpdateProfile = () => {
         updateUserProfile(userName, email, photoURL)
             .then(() => {
                 toast.success("Update Success", {
-                    theme: "colored",
+                    theme: "colored"
                 });
                 navigate('/updateProfile')
             })

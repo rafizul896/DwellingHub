@@ -1,12 +1,18 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import { toast } from 'react-toastify';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
     console.log(user)
     const handleLogOut = () => {
         logOut()
+        .then(()=>{
+            toast.success("Update Success", {
+                theme: "colored"
+            });
+        })
     }
     const links = <>
         <li><NavLink to="/" className={({ isActive }) => isActive ? "btn  bg-[#6a60e2] text-[#FFFFFF]" : "btn bg-[#fff] border-0"}>Home</NavLink></li>
@@ -15,7 +21,7 @@ const Navbar = () => {
     </>
     return (
         <div className="navbar px-0 bg-base-100">
-            <div className="navbar-start">
+            <div className="navbar-start flex gap-2">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -26,9 +32,9 @@ const Navbar = () => {
                 </div>
                 {
                     user ?
-                        <a className="text-2xl hidden md:block md:text-3xl font-bold font-sans text-[#1f2744]">Dwelling<span className="text-[#6a60e2]">Hub</span></a>
+                        <a className="text-2xl hidden md:block md:text-3xl font-bold text-[#1f2744]">Dwelling<span className="text-[#6a60e2]">Hub</span></a>
                         :
-                        <a className="text-2xl md:text-3xl font-bold font-sans text-[#1f2744]">Dwelling<span className="text-[#6a60e2]">Hub</span></a>
+                        <a className="text-2xl md:text-3xl font-bold text-[#1f2744]">Dwelling<span className="text-[#6a60e2]">Hub</span></a>
                 }
             </div>
             <div className="navbar-center hidden lg:flex">
