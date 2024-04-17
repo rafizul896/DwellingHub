@@ -16,20 +16,20 @@
         "image": "https://i.ibb.co/LZkcf6Y/img11.jpg"
     },
     {
-        "estate_title": "Modern Townhouse in Urban Area",
-        "id": 2,
-        "segment_name": "Townhouse",
-        "description": "Discover contemporary urban living at its finest in this modern townhouse nestled in the vibrant Brooklyn neighborhood. With its sleek design and open-concept layout spanning over 2,000 square feet, this townhouse offers both style and functionality. Enjoy the convenience of city living with a private rooftop terrace, perfect for relaxing or entertaining guests. Experience the best of Brooklyn in this stylish and sophisticated townhome.",
-        "price": "1,200,000",
+        "estate_title": "Downtown Loft Apartment",
+        "id": 8,
+        "segment_name": "Urban",
+        "description": "Experience urban sophistication in this stylish loft apartment situated in the vibrant downtown area of Seattle, Washington. With its industrial-inspired design, exposed brick walls, and open floor plan, this loft offers a unique blend of modern living and historic charm. Enjoy sweeping views of the city skyline from the rooftop deck or explore the bustling streets below. This downtown loft apartment is the epitome of city living.",
+        "price": "1,000,000",
         "status": "sale",
-        "area": "2000 sq ft",
-        "location": "Brooklyn, New York",
+        "area": "1500 sq ft",
+        "location": "Seattle, Washington",
         "facilities": [
-            "rooftop terrace",
-            "garage",
-            "smart home features"
+            "open floor plan",
+            "exposed brick walls",
+            "rooftop deck"
         ],
-        "image": "https://i.ibb.co/6NXT6Wp/img10.jpg"
+        "image": "https://i.ibb.co/nCRr2VW/img8.jpg"
     },
     {
         "estate_title": "Riverside Cottage Retreat",
@@ -112,20 +112,20 @@
         "image": "https://i.ibb.co/NYQDTR2/img7.jpg"
     },
     {
-        "estate_title": "Downtown Loft Apartment",
-        "id": 8,
-        "segment_name": "Urban",
-        "description": "Experience urban sophistication in this stylish loft apartment situated in the vibrant downtown area of Seattle, Washington. With its industrial-inspired design, exposed brick walls, and open floor plan, this loft offers a unique blend of modern living and historic charm. Enjoy sweeping views of the city skyline from the rooftop deck or explore the bustling streets below. This downtown loft apartment is the epitome of city living.",
-        "price": "1,000,000",
+        "estate_title": "Modern Townhouse in Urban Area",
+        "id": 2,
+        "segment_name": "Townhouse",
+        "description": "Discover contemporary urban living at its finest in this modern townhouse nestled in the vibrant Brooklyn neighborhood. With its sleek design and open-concept layout spanning over 2,000 square feet, this townhouse offers both style and functionality. Enjoy the convenience of city living with a private rooftop terrace, perfect for relaxing or entertaining guests. Experience the best of Brooklyn in this stylish and sophisticated townhome.",
+        "price": "1,200,000",
         "status": "sale",
-        "area": "1500 sq ft",
-        "location": "Seattle, Washington",
+        "area": "2000 sq ft",
+        "location": "Brooklyn, New York",
         "facilities": [
-            "open floor plan",
-            "exposed brick walls",
-            "rooftop deck"
+            "rooftop terrace",
+            "garage",
+            "smart home features"
         ],
-        "image": "https://i.ibb.co/nCRr2VW/img8.jpg"
+        "image": "https://i.ibb.co/6NXT6Wp/img10.jpg"
     },
     {
         "estate_title": "City Apartment with Stunning Views",

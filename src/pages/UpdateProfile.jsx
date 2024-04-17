@@ -33,7 +33,7 @@ const UpdateProfile = () => {
 
     return (
         <div className="hero min-h-[100vh] p-0">
-            <div className="hero-content md:w-1/2 flex-col border mb-10 bg-base-100 shadow-2xl  md:pb-0 px-0 py-10">
+            <div className="hero-content md:w-1/2 flex-col border mb-10 bg-base-100 shadow-2xl rounded-2xl  md:pb-0 px-0 py-10">
                 <div className="text-center lg:text-left">
                     <h1 className="text-2xl md:text-4xl font-bold text-[#1f2744]">Update Your Profile</h1>
                 </div>

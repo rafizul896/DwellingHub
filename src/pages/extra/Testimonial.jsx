@@ -3,7 +3,7 @@ const Testimonial = () => {
         <div className="space-y-3 py-10">
             <h1 className="text-4xl font-semibold text-center pb-5">What people are saying about us</h1>
             <div data-aos="fade-down" data-aos-duration="500" className="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div className="space-y-3 border py-10 px-3">
+                <div className="space-y-3 py-10 md:px0-3 px-5 lg:px-5 border border-[#6a60e2] rounded-2xl">
                     <h1 className="text-xl font-medium">It proved to be exactly the kind of home we wanted.</h1>
                     <p>
                         We wish to express our thanks for your hard work in finding us a temporary home, which proved to be exactly what we wanted.
@@ -18,7 +18,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-3 border py-10 px-3">
+                <div className="space-y-3 py-10 md:px0-3 px-5 lg:px-5 border border-[#6a60e2] rounded-2xl">
                     <h1 className="text-xl font-medium">Nobody knows Portland and the peninsula better than David.</h1>
                     <p>
                         My wife and I had a dream of downsizing from our house in Cape Elizabeth into a small condo closer to where we work and play in Portland.
@@ -33,7 +33,7 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-3 border py-10 px-3">
+                <div className="space-y-3 py-10 md:px0-3 px-5 lg:px-5 border border-[#6a60e2] rounded-2xl">
                     <h1 className="text-xl font-medium">He keeps his client’s best interests in sharp focus.</h1>
                     <p>
                         After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then.
