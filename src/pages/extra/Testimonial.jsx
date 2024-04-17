@@ -2,7 +2,7 @@ const Testimonial = () => {
     return (
         <div className="space-y-3 py-10">
             <h1 className="text-4xl font-semibold text-center pb-5">What people are saying about us</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div data-aos="fade-down" data-aos-duration="500" className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div className="space-y-3 border py-10 px-3">
                     <h1 className="text-xl font-medium">It proved to be exactly the kind of home we wanted.</h1>
                     <p>

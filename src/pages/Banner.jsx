@@ -5,13 +5,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
 export default function Banner() {
     return (
         <div>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={50}
-                navigation={true}
+                navigation={false}
                 pagination={{ clickable: true }}
                 loop={true}
                 autoplay={

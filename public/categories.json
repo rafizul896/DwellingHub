@@ -7,7 +7,7 @@
         "price": "2,500,000",
         "status": "sale",
         "area": "4000 sq ft",
-        "location": "Beverly Hills, California",
+        "location": "Beverly Hills",
         "facilities": [
             "swimming pool",
             "garden",
@@ -39,7 +39,7 @@
         "price": "250/night",
         "status": "rent",
         "area": "1000 sq ft",
-        "location": "Asheville,North Carolina",
+        "location": "Asheville,Carolina",
         "facilities": [
             "riverside deck",
             "fire pit",

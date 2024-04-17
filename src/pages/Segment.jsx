@@ -5,7 +5,7 @@ import { AiOutlineDollar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Segment = ({ segment }) => {
-    const { id,image, estate_title, description, segment_name, location, area, price,status } = segment
+    const { id, image, estate_title, description, segment_name, location, area, price, status } = segment
     console.log(segment)
     return (
         <div>
@@ -15,29 +15,37 @@ const Segment = ({ segment }) => {
                     <p className='bg-green-500 text-white px-4 absolute top-0 right-0'>{status}</p>
                 </div>
                 <div className="p-2 space-y-4">
-                    <h1 className="text-2xl font-semibold">{estate_title}</h1>
-                    <p>{description.slice(0, 100)}</p>
+                    <h1 className="text-2xl font-semibold text-[#1f2744]">{estate_title}</h1>
+                    <p className='text-[#5A5A5D]'>{description.slice(0, 100)}</p>
                     <div className="flex justify-between flex-col md:flex-row gap-2">
-                        <div className="flex items-center gap-2">
-                            <IoPricetagsOutline />
-                            <p>{segment_name}</p>
+                        <div className="flex items-center gap-1">
+                            <div className='text-[#6a60e2] text-xl'>
+                                <IoPricetagsOutline />
+                            </div>
+                            <p className='font-medium'>{segment_name}</p>
                         </div>
-                        <div className="flex items-center gap-2">
-                            <IoLocationOutline />
-                            <p>{location}</p>
+                        <div className="flex items-center gap-1">
+                            <div className='text-[#6a60e2] text-xl'>
+                                <IoLocationOutline />
+                            </div>
+                            <p className='font-medium'>{location}</p>
                         </div>
                     </div>
                     <div className="flex justify-between">
-                        <div className="flex items-center gap-2">
-                            <MdOutlineAddHomeWork />
-                            <p>{area}</p>
+                        <div className="flex items-center gap-1">
+                            <div className='text-[#6a60e2] text-xl'>
+                                <MdOutlineAddHomeWork />
+                            </div>
+                            <p className='font-medium'>{area}</p>
                         </div>
-                        <div className="flex items-center gap-2">
-                            <AiOutlineDollar />
-                            <h2>{price}</h2>
+                        <div className="flex items-center gap-1">
+                            <div className='text-[#6a60e2] text-xl'>
+                                <AiOutlineDollar />
+                            </div>
+                            <h2 className='font-semibold'>{price}</h2>
                         </div>
                     </div>
-                    <Link to={`/segment/${id}`}><button className="btn w-full btn-primary mt-3">View Property</button></Link>
+                    <Link to={`/segment/${id}`}><button className="btn w-full bg-[#6a60e2] text-[#FFFFFF] mt-3">View Property</button></Link>
                 </div>
             </div>
         </div>

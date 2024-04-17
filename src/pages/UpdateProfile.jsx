@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 import auth from "../Firebase/firebase.init";
 import { updateProfile } from "firebase/auth";
-// import { toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const UpdateProfile = () => {
     const updateUserProfile = (name, email, photo) => {
@@ -24,6 +24,9 @@ const UpdateProfile = () => {
         const { userName, email, photoURL } = data;
         updateUserProfile(userName, email, photoURL)
             .then(() => {
+                toast.success("Login Success", {
+                    theme: "colored",
+                });
                 navigate()
             })
     };
@@ -32,13 +35,13 @@ const UpdateProfile = () => {
         <div className="hero min-h-[100vh] p-0">
             <div className="hero-content md:w-1/2 flex-col border mb-10 bg-base-100 shadow-2xl  md:pb-0 px-0 py-10">
                 <div className="text-center lg:text-left">
-                    <h1 className="text-2xl md:text-4xl font-bold">Register your account</h1>
+                    <h1 className="text-2xl md:text-4xl font-bold text-[#1f2744]">Update Your Profile</h1>
                 </div>
                 <div className="card shrink-0 w-full max-w-sm">
                     <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">Your Name</span>
+                                <span className="label-text font-semibold">Your Name</span>
                             </label>
                             <input type="text" placeholder="Enter your name" className="input input-bordered bg-base-200" defaultValue={displayName}
                                 {...register("userName")}
@@ -47,7 +50,7 @@ const UpdateProfile = () => {
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">Email</span>
+                                <span className="label-text font-semibold">Email</span>
                             </label>
                             <input type="email" placeholder="Enter your email address" className="input input-bordered bg-base-200" defaultValue={email}
                                 {...register("email")}
@@ -56,7 +59,7 @@ const UpdateProfile = () => {
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">Photo URL</span>
+                                <span className="label-text font-semibold">Photo URL</span>
                             </label>
                             <input type="text" placeholder="Enter your photo URL link" className="input input-bordered bg-base-200" defaultValue={photoURL}
                                 {...register("photoURL")}
@@ -64,7 +67,7 @@ const UpdateProfile = () => {
                             {errors.photoURL && <span className="text-red-500 p-1">Please Enter your photo URL</span>}
                         </div>
                         <div className="form-control mt-6">
-                            <button type="submit" className="btn text-white hover:btn-info bg-[#403F3F] ">Register</button>
+                            <button type="submit" className="btn text-white hover:bg-[#5144e6] bg-[#6a60e2] rounded-full">Save</button>
                         </div>
                     </form>
                 </div>
