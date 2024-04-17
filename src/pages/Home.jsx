@@ -24,7 +24,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <div className="my-16">
+            <div className="my-24">
                 <About></About>
             </div>
             <div className="my-10">

@@ -35,12 +35,11 @@ const Navbar = () => {
                 {
                     user ?
                         <div className="flex items-center gap-5 md:gap-10">
-                            <p className="font-medium text-blue-700">{user? user.displayName : 'Name nai'}</p>
-                            <div className="avatar">
-                                <button onClick={handleLogOut} className="w-10 h-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <div className="avatar flex gap-3 md:gap-5 tooltip hover:tooltip-open tooltip-left" data-tip={user.displayName}>
+                                <button className="w-10 h-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                     <img className="rounded-full " src={user ? user.photoURL : "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"} />
                                 </button>
-                                {/* <button className="py-2 px-5 bg-[#403F3F] text-white rounded-sm">Sign_Out</button> */}
+                                <button onClick={handleLogOut} className="py-2 px-5 bg-[#403F3F] text-white rounded-sm">Logout</button>
                             </div>
                         </div>
                         :

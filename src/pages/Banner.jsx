@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Autoplay, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -9,10 +9,14 @@ export default function Banner() {
     return (
         <div>
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 spaceBetween={50}
                 navigation={true}
                 pagination={{ clickable: true }}
+                loop={true}
+                autoplay={
+                    {delay:2000}
+                }
             >
                 <SwiperSlide>
                     <div className='h-[88vh] md:h-[84vh]'>
