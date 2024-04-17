@@ -30,7 +30,7 @@ const About = () => {
             <div className="space-y-4 flex-1 mt-5 text-center">
                 <h1 data-aos="fade-down" data-aos-duration="500" className="text-center text-2xl md:text-4xl font-semibold">How much is your property worth now?</h1>
                 <p data-aos="fade-down" data-aos-duration="500" className="md:text-lg">We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people.</p>
-                <button data-aos="fade-down" data-aos-duration="500" className="btn">Learn more</button>
+                <button data-aos="fade-down" data-aos-duration="500" className="btn py-2 px-3 md:px-5 bg-[#6a60e2] hover:bg-[#6a60e2] text-white rounded-md">Learn more</button>
             </div>
         </div>
     );
