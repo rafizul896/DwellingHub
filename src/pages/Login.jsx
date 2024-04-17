@@ -6,7 +6,7 @@ import { IoLogoGoogle } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { toast } from 'react-toastify';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
-
+import {Helmet} from "react-helmet";
 
 const Login = () => {
     const { logIn, googleLogin, facebookLogin } = useContext(AuthContext)
@@ -22,10 +22,10 @@ const Login = () => {
         const { email, password } = data;
         logIn(email, password)
             .then(result => {
+                navigate(location?.state ? location.state : "/")
                 toast.success("Login Success", {
                     theme: "colored",
                 });
-                navigate(location?.state ? location.state : "/")
                 console.log(result);
             })
             .catch(error => {
@@ -38,15 +38,26 @@ const Login = () => {
 
     const handleGoogleLogIn = () => {
         googleLogin()
+        .then(()=>{
+            navigate(location?.state ? location.state : "/")
+        })
     }
 
     const handleFacebookLogin = () => {
         facebookLogin()
+        .then(()=>{
+            navigate(location?.state ? location.state : "/")
+        })
     }
 
     return (
         <div className="hero min-h-[90vh] p-5">
-            <div className="hero-content md:w-1/2 flex-col bg-base-100 shadow-2xl borde md:p-10 px-0 py-10">
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Login - DwellingHub</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+            <div className="hero-content md:w-1/2 flex-col bg-base-100 shadow-2xl rounded-2xl borde md:p-10 px-0 py-10">
                 <div className="text-center lg:text-left">
                     <h1 className="text-4xl font-bold">Login now!</h1>
                 </div>

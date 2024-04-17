@@ -1,8 +1,14 @@
-# React + Vite
+Wibsite Name : DwellingHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+characteristics of my website:
+ * Component-Based Architecture.
+ * Virtual DOM.
+ * JSX (JavaScript Syntax Extension).
+ * One-Way Data Binding.
+ * Fast initial Load.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Used npm package name:
+ * AOS Package.
+ * React Hook form.
+ *  Swiper slider

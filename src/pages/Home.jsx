@@ -6,12 +6,19 @@ import Testimonial from "./extra/Testimonial";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     const segments = useLoaderData()
     // console.log(segments)
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>DwellingHub - Home</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+
             <Banner></Banner>
             <div className="mt-12">
                 <div className="text-center space-y-3">

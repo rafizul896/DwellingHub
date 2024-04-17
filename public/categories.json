@@ -17,7 +17,7 @@
     },
     {
         "estate_title": "Downtown Loft Apartment",
-        "id": 8,
+        "id": 2,
         "segment_name": "Urban",
         "description": "Experience urban sophistication in this stylish loft apartment situated in the vibrant downtown area of Seattle, Washington. With its industrial-inspired design, exposed brick walls, and open floor plan, this loft offers a unique blend of modern living and historic charm. Enjoy sweeping views of the city skyline from the rooftop deck or explore the bustling streets below. This downtown loft apartment is the epitome of city living.",
         "price": "1,000,000",
@@ -113,7 +113,7 @@
     },
     {
         "estate_title": "Modern Townhouse in Urban Area",
-        "id": 2,
+        "id": 8,
         "segment_name": "Townhouse",
         "description": "Discover contemporary urban living at its finest in this modern townhouse nestled in the vibrant Brooklyn neighborhood. With its sleek design and open-concept layout spanning over 2,000 square feet, this townhouse offers both style and functionality. Enjoy the convenience of city living with a private rooftop terrace, perfect for relaxing or entertaining guests. Experience the best of Brooklyn in this stylish and sophisticated townhome.",
         "price": "1,200,000",

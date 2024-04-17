@@ -43,6 +43,7 @@ const Register = () => {
                 toast.success("Registration Success", {
                     theme: "colored",
                 });
+                location.reload()
             })
             .catch(error => {
                 toast.error('Registration Invalid!', {

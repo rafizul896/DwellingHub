@@ -1,10 +1,16 @@
 import { FaHeart, FaStar, FaLocationDot } from "react-icons/fa6";
 import { MdOutlineSecurity, MdPriceChange } from "react-icons/md";
 import { AiOutlinePieChart } from "react-icons/ai";
+import {Helmet} from "react-helmet";
 
 const Advantages = () => {
     return (
         <div className="my-10">
+             <Helmet>
+                <meta charSet="utf-8" />
+                <title>Our Advantages - DwellingHub</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <h1 className="text-[27px] md:text-4xl font-semibold text-center text-[#1f2744]">Giving you the peace of mind</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
                 <div className="text-center space-y-3 border shadow-xl px-3 py-7 rounded-2xl">
